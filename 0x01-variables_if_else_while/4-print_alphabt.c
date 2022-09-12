@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - min function thingy
+/**
+ * main - mian function thingy
  *
  * description: i don tire oo
  * the program prints "e fimi le joor"
