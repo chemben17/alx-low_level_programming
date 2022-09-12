@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main p- main what you think
+ * main - maini function  what you think
  *
  * description: just describe it the way yo
  * the code prints "coding the way ok"
@@ -9,6 +9,7 @@
 int main(void)
 {
 	int you;
+
 	you = 97;
 	while (you <= 122)
 	{
