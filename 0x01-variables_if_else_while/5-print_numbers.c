@@ -9,6 +9,7 @@
 int main(void)
 {
 	int dig;
+
 	dig = 0;
 	while (dig <= 9)
 	{
