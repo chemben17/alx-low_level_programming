@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - main function something
+ * main - main function level
  *
- * description: lets it go
- * the program prints all "you think it does"
+ * description: like i care
+ * the program prints "why do you cre"
  * Return: 0
  */
 int main(void)
 {
-	int num;
+	char num;
 
-	num = 0;
-	while (num <= 9)
+	num = '0';
+	while (num <= '9')
 	{
 		putchar(num);
 		num++;
