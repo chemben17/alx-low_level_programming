@@ -2,7 +2,8 @@
 /**
  * main - prints alphabet in lower case
  *
- * description: a functionthat prints alphabet on lowercase.
+ * description: a function that prints alphabet on lowercase.
+ * the function prints "alphabet on lower case"
  * Return: 0
  */
 void print_alphabet(void)
@@ -13,4 +14,5 @@ void print_alphabet(void)
 	{
 		_putchar(letter);
 	}
+	_putchar(10);
 }
