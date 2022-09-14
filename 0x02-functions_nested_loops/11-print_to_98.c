@@ -17,7 +17,9 @@ void print_to_98(int n)
 		for (v = n; v >= 98; v--)
 		{
 			printf("%d", v);
-			printf(" ,");
+			if (v !== 98)
+			{
+				printf(" ,");
 		}
 	}
 	else
@@ -25,7 +27,9 @@ void print_to_98(int n)
 		for (v = n; v <= 98; v++)
 		{
 			printf("%d", v);
-			printf(" ,");
+			if (v !== 98)
+			{
+				printf(" ,");
 		}
 	}
 }
