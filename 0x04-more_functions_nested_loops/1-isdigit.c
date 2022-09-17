@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * _isdigit - checks for a digi
+/**
+ * _isdigit -  function that checks for a digi
  * @c: the argument
  * Return: 0 or 1
  */
