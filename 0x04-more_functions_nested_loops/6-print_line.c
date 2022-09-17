@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - Write a function that draws a straight line in the terminal
- * @c: the argument
+ * @n: the argument
  * Return: no return value
  */
 void print_line(int n)
@@ -12,7 +12,7 @@ void print_line(int n)
 	{
 		_putchar('_');
 	}
-	if ( a <= 0)
+	if (a <= 0)
 	{
 		_putchar(10);
 	}
