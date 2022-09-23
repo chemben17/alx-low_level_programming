@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_diagonal - write a function that draws a diagonal line.
@@ -7,22 +6,29 @@
  */
 void print_diagonal(int n)
 {
-	int i, b;
+	int i, j;
 
 	if (n > 0)
 	{
 		for (i = 1; i <= n; i++)
 		{
-			for (b = 0; b < 1; b++)
+			_putchar('\\');
+			if (i == n)
 			{
-				putchar(' ');
+				_putchar('\n');
 			}
-			putchar(92);
-			putchar('\n');
+			if (n > 1 && i < (n))
+			{
+				_putchar('\n');
+				for (j = 0; j < i; j++)
+				{
+					_putchar(' ');
+				}
+			}
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
