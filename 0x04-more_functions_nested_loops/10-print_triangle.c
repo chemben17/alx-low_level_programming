@@ -15,7 +15,7 @@ void print_triangle(int size)
 		while (a <= size)
 		{
 			b = 0;
-			while (b < (n - a))
+			while (b < (size - a))
 			{
 				_putchar(' ');
 				b++;
