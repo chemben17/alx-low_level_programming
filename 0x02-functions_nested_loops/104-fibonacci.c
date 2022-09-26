@@ -8,7 +8,7 @@ int main(void)
 	int i = 0;
 	unsigned long int a = 0, b = 1, next;
 
-	for (i = 0; i < 98; i++)
+	while (i < 98)
 	{
 		next = a + b;
 		a = b;
@@ -19,6 +19,7 @@ int main(void)
 		{
 			printf(", ");
 		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
