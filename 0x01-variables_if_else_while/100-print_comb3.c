@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - main is a good function
  *
@@ -8,11 +9,23 @@
  */
 int main(void)
 {
-	int num;
+	int i, j;
 
-	for (num = 0; num <= 10; num++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar("2%d", num);
+		for (j = 0; j < 10; j++)
+		{
+			if (i != j && i < j)
+			{
+				putchar(i + '0');
+				putchar(i + '0');
+				if ((i + j) != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
-	return (0);
+	putchar(10);
 }
