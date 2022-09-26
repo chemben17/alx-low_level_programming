@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - i dont lnow
  * Return: 0
@@ -17,4 +18,5 @@ int main(void)
 		}
 	}
 	printf("%d", sum);
+	return (0);
 }
