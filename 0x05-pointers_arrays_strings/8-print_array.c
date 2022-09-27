@@ -3,7 +3,7 @@
 /**
  * print_array -  prints n elements of an array of integers
  * @a: an argument
- * @b: an argument
+ * @n: an argument
  * Return: no return
  */
 void print_array(int *a, int n)
@@ -12,10 +12,9 @@ void print_array(int *a, int n)
 
 	for (c = 0; c < n; c++)
 	{
-		if (c != n - 1)
+		if (c < (n - 1))
 			printf("%d, ", a[c]);
 		else
-			printf("%d", a[c]);
+			printf("%d\n", a[c]);
 	}
-	_putchar(10);
 }
