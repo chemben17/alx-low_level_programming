@@ -14,7 +14,7 @@ void puts_half(char *str)
 	}
 	if (i > 0)
 	{
-		if (i % 2 == 0)
+		if (i % 2 == '\0')
 		{
 			int a = (i / 2);
 			int b;
@@ -26,7 +26,7 @@ void puts_half(char *str)
 		}
 		else
 		{
-			int a = (i - 1) / 2;
+			int a = ((i - 1) / 2) + 1;
 			int b;
 
 			for (b = a; b <= i; b++)
