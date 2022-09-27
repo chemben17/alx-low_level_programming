@@ -12,26 +12,28 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	if (i % 2 == 0)
+	if (i > 0)
 	{
-		int a = (i / 2);
-		int b;
-
-		for (b = a; b <= i; b++)
+		if (i % 2 == 0)
 		{
-			_putchar(str[b]);
-		}
-		_putchar('\n');
-	}
-	else
-	{
-		int a = (i - 1) / 2;
-		int b;
+			int a = (i / 2);
+			int b;
 
-		for (b = a; b <= i; b++)
-		{
-			_putchar(str[b]);
+			for (b = a; b <= i; b++)
+			{
+				_putchar(str[b]);
+			}
 		}
-		_putchar('\n');
+		else
+		{
+			int a = (i - 1) / 2;
+			int b;
+
+			for (b = a; b <= i; b++)
+			{
+				_putchar(str[b]);
+			}
+		}
 	}
+	_putchar(10);
 }
