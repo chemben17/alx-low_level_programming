@@ -14,13 +14,14 @@ void puts_half(char *str)
 	}
 	if (i % 2 == 0)
 	{
-		int a = (i / 2 + 1);
+		int a = (i / 2);
 		int b;
 
 		for (b = a; b <= i; b++)
 		{
 			_putchar(str[b]);
 		}
+		_putchar('\n');
 	}
 	else
 	{
@@ -31,6 +32,6 @@ void puts_half(char *str)
 		{
 			_putchar(str[b]);
 		}
+		_putchar('\n');
 	}
-	_putchar(10);
 }
