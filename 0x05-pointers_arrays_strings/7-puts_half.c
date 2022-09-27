@@ -35,8 +35,5 @@ void puts_half(char *str)
 			}
 		}
 	}
-	else
-	{
-		_putchar(10);
-	}
+	_putchar(10);
 }
