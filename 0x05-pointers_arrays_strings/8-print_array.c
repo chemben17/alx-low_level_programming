@@ -17,4 +17,8 @@ void print_array(int *a, int n)
 		else
 			printf("%d\n", a[c]);
 	}
+	if (n <= 0)
+	{
+		putchar(10);
+	}
 }
