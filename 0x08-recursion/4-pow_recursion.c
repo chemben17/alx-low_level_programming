@@ -4,6 +4,7 @@
  * _pow_recursion - a function that returns the value
  * @x: the base number
  * @y: the exponent number
+ * Return: 1 0r -1
  */
 int _pow_recursion(int x, int y)
 {
