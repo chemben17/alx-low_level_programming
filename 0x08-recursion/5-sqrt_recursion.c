@@ -11,7 +11,7 @@ int sqr(int n, int i)
 {
 	if (i * i == n)
 		return (i);
-	else if ((i * i != n) && (i >= n / 2) || (n < 0))
+	else if ((i * i != n) && (i >= n / 2))
 		return (-1);
 
 	return (sqr(n, i + 1));
