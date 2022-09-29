@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _sqrt_recursion -  natural square root of a numbe
- * sqr - nothing
+ * sqr -  natural square root of a numbe
  * @n: the actual number to determine
  * @i: the varying num.
  * Return: root or -1
@@ -16,6 +15,12 @@ int sqr(int n, int i)
 
 	return (sqr(n, i + 1));
 }
+
+/**
+ * _sqrt_recursion - the main function
+ * @n: the number
+ * Return: a number
+ */
 
 int _sqrt_recursion(int n)
 {
