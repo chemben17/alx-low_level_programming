@@ -8,7 +8,7 @@
  */
 int main(int argc, char const *argv[])
 {
-	if (argc != 1)
+	if (argc != 3)
 	{
 		printf("error\n");
 		return (1);
