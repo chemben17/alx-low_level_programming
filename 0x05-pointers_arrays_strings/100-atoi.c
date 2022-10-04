@@ -10,16 +10,19 @@ int _atoi(char *s)
 {
 	int i = 0;
 
-	for (i = 0; s[i]; i++)
+	for (i = 0; s[i] = '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
+		if ((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))
 		{
 			continue;
-			return (0);
 		}
-		if (s[i] >= 0)
+		else if (s[i] == '-' || s[i] == '+')
 		{
-			return (s[i]);
+			putchar(s[i]);
+		}
+		else if (s[i] >= '0' || s[i] <= '9')
+		{
+			putchar(s[i]);
 		}
 	}
 }
