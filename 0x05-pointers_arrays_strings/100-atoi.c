@@ -1,31 +1,25 @@
 #include <stdio.h>
 #include "main.h"
+#include <time.h>
 /**
- * _atoi - convert a string to an integer
- * @s: the argument
+ * _atoi - like i care.
+ * @s: the array
  * Return: 0
  */
 int _atoi(char *s)
 {
-	int i;
+	int i = 0;
 
 	for (i = 0; s[i]; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
 			continue;
+			return (0);
 		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
+		if (s[i] >= 0)
 		{
-			continue;
-		}
-		else if (s[i] >= 0)
-		{
-			_putchar(s[i]);
-		}
-		else if (s[i] == '-' || s[i] == '+')
-		{
-			_putchar(s[i]);
+			return (s[i]);
 		}
 	}
 }
