@@ -20,8 +20,6 @@ char *rot13(char *str)
 				str[i] = b[k];
 				break;
 			}
-			else
-				continue;
 		}
 		i++;
 	}
