@@ -1,4 +1,7 @@
 #include <stdio.h>
+#ifndef __FILE__
+#define __FILE__
+#endif
 /**
  * main - program that prints the name
  * Return: no return value
