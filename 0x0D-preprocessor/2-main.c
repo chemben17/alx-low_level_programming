@@ -1,6 +1,6 @@
 #include <stdio.h>
-#ifndef __FILE__
-#define __FILE__
+#ifndef FILE
+#define FILE __FILE__
 #endif
 /**
  * main - program that prints the name
@@ -8,5 +8,6 @@
  */
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	printf("%s\n", FILE);
+	return (0);
 }
