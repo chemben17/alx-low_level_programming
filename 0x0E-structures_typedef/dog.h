@@ -1,6 +1,6 @@
 #ifndef DOG_H_
 #define DOG_H_
-#define DOG_H \
+#define dog \
 	struct dog \
 { \
 		char *name; \
